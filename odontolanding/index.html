@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Odontológica</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/1.css">
+
+</head>
+
+<body>
+    <section>
+        <div class="hero">
+            <div class="navBar">
+                <div class="logo">
+                    <h3 style="color:white">Clinica Dental</h3>
+                    <img src="" alt="">
+                </div>
+                <div class="navLinks" id="navLinks">
+                    <i class="fa fa-close" onclick="cerrarMenu()"></i>
+                    <ul>
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Contactos</a></li>
+                        <li><a href="">Sobre nosotros</a></li>
+                    </ul>
+                    <button type="button" class="btn" id="sbs" onclick="Show()">Suscripción</button>
+                </div>
+                <i class="fa fa-bars" onclick="mostrarMenu()"></i>
+            </div>
+
+            <div class="banner">
+                <h1><span>LUCE UNA <br>SONRISA</span><br>BRILLANTE</h1>
+                <p>Ofrecemos desde limpiezas hasta extracciones</p>
+                <button type="button" class="btn">Explorar</button>
+            </div>
+            <div class="vertical">
+                <div class="search">
+                    <i class="fa fa-th-list"></i>
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="social">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-pinterest"></i>
+                </div>
+            </div>
+            <div class="notification">
+                <div class="contents">
+                    <small>No te pierdas la oportunidad de agendar con nosotros.</small>
+                    <p><a href="">Anterior</a><a href="">Siguiente</a></p>
+                </div>
+                <div class="ntfcn-img">
+                    <img src="dentalcare.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="modal">
+            <div class="modal-contenido">
+                <i class="fa fa-close" onclick="Close()"></i>
+                <img src="medicos.jpg" alt="">
+                <h4>Ten acceso exclusivo a nuestra<br>Red de Médicos Especialistas<br>y ten la seguridad que luciras<br>una sonrisa hermosa en poco tiempo!</h4>
+                <form action="" method="POST">
+                    <input type="text" placeholder="Nombre y Apellido" required>
+                    <input type="email" placeholder="Correo electrónico" required>
+                    <input type="text" placeholder="Número de teléfono" required>
+                    <input type="submit" class="btn" name="Sucribirse">
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="1.js"></script>
+</body>
+
+</html>
